@@ -1,0 +1,74 @@
+.HomePage-background {
+    border: solid 1px black;
+
+    .homepage-title-container {
+        margin: 10px;
+        border: solid 1px black;
+
+        .homepage-title {
+            margin: 100px 0 100px 200px;
+            border: solid 1px black;
+            font-size: 96pt;
+        }
+    }
+
+    .homepage-description-container {
+        margin: 10px;
+        border: solid 1px black;
+
+        .homepage-description {
+            margin: 100px 0 100px 200px;
+            display: flex;
+            flex-direction: row;
+            border: solid 1px black;
+
+            .homepage-description-text {
+                margin: 10px;
+                border: solid 1px black;
+                font-size: 48pt;
+            }
+
+            .homepage-description-carousel {
+                border: solid 1px black;
+                margin: 10px;
+                font-size: 48pt;
+            }
+        }
+    }
+
+    .homepage-gettingstarted {
+        margin: 10px;
+        border: solid 1px black;
+
+        .homepage-gettingstarted-text {
+            border: solid 1px black;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+        }
+    }
+
+    .homepage-optionsgrid {
+        border: solid 1px black;
+        margin-top: 800px;
+
+        .homepage-optionsgrid-container {
+            border: solid 1px black;
+            margin: 10px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 30px;
+            padding: 50px;
+
+            .homepage-optionsgrid-item {
+                border: solid 1px black;
+                align-items: center;
+                height: 100%;
+                width: 100%;
+                justify-content: space-evenly;
+                aspect-ratio: 1;
+            }
+        }
+    }
+}
